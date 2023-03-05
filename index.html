@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mortgage Calaculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    
+        <form>
+          
+            <h1>Mortgage Calculator   <img src="house.png"></h1> 
+            <input type="number" id="loan-amount" name="loan-amount" required placeholder="Loan amount">
+          
+            
+            <input type="number" id="interest-rate" name="interest-rate" required placeholder="Interest rate (%)">
+          
+            <input type="number" id="loan-term" name="loan-term" required placeholder="Loan term (years)">
+          
+            <label for="payment-frequency">Payment frequency:</label>
+            <select id="payment-frequency" name="payment-frequency">
+              <option value="12">Monthly</option>
+              <option value="26">Bi-weekly</option>
+              <option value="52">Weekly</option>
+            </select>
+          
+            <button type="button" onclick="calculate()">Calculate</button>
+          </form>
+          
+          <div id="result"></div>
+            
+        
+        <script src="calc.js"></script>
+    </body>
+</html>

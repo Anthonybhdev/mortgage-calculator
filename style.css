@@ -1,0 +1,71 @@
+h1{
+    font-family: 'Libre Baskerville', serif;;
+}
+
+body {
+    background-image: url(getting-home-loan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 14px 24px 3px rgb(0 0 0 / 83%);
+  }
+  
+  label, input, select {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+  input:hover {
+    background-color: black;
+    color: #fff;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: black;
+  }
+  select:hover {
+    background-color: black;
+    color: #fff;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+  
+  img {
+    width: 46px;
+    top: 6px;
+    position: relative;
+  }
